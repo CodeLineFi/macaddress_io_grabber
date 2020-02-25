@@ -1,0 +1,11 @@
+.idea
+
+# Config
+config.json
+
+# Build
+build
+
+# Vagrant
+/.vagrant/*
+!/.vagrant/bootstrap

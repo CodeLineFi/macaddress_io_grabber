@@ -1,0 +1,16 @@
+box: centos/7
+version: ">= 1812"
+cpus: 2
+memory: 2048
+db_password: "dC-UEBnaxW~#4DK{"
+db_name: macaddress
+aliases:
+machine_name: macaddress_io_grabber
+mount_options:
+  - nolock
+net: private_network
+net_type: dhcp
+provider: virtualbox
+sync_map: .
+sync_to: /home/vagrant/macaddress_io_grabber
+sync_type: nfs

@@ -1,0 +1,34 @@
+{
+  "database": {
+    "port": "localhost:3306",
+    "username": "root",
+    "password": "dC-UEBnaxW~#4DK{",
+    "database": "macaddress"
+  },
+  "redis": {
+    "url": "redis://localhost:6379",
+    "databases": [
+      1,
+      2
+    ]
+  },
+  "autoUpdate": {
+    "sourceDir": "/vagrant/test/sources",
+    "exportToJson": "/vagrant/test/result/records.json",
+    "exportToXml": "/vagrant/test/result/records.xml",
+    "exportToCisco": "/vagrant/test/result/vendorMacs.xml",
+    "exportToCsv": "/vagrant/test/result/records.csv",
+    "serverDir": "/vagrant/test/server/",
+    "exportToRedis": true,
+    "storeDays": 7,
+    "email": {
+      "host": "",
+      "username": "",
+      "password": "",
+      "emailFrom": "",
+      "emailTo": [
+        ""
+      ]
+    }
+  }
+}
